@@ -8,7 +8,7 @@ import javax.inject.Singleton
 @Module
 class AppModule() {
 
-    @Singleton
+
     @Provides
     fun provideText(): String = "Hello"
 
